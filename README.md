@@ -1,5 +1,7 @@
 # FullscreenSnowEffect
 
+(Works only on Windows)
+
 Stole everything from this project: https://github.com/turborium/CrazzzySnow
 
 This is how it looks like
