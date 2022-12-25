@@ -1,0 +1,19 @@
+object FormMain: TFormMain
+  Left = 583
+  Height = 1080
+  Top = 238
+  Width = 1920
+  BorderStyle = bsNone
+  Caption = 'CrazzzySnowFullscreen'
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnPaint = FormPaint
+  Position = poScreenCenter
+  LCLVersion = '2.2.4.0'
+  object TimerUpdate: TTimer
+    Interval = 33
+    OnTimer = TimerupdateTimer
+    Left = 105
+    Top = 71
+  end
+end
